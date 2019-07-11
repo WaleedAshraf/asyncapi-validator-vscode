@@ -2,7 +2,7 @@
 	"name": "asyncapi-validator-vscode",
 	"displayName": "Asyncapi Validator and Viewer",
 	"description": "Validate your AsyncAPI schema",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "waleedashraf",
 	"repository": {
 		"type": "github",
