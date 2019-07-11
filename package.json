@@ -2,7 +2,7 @@
 	"name": "asyncapi-validator-vscode",
 	"displayName": "Asyncapi Validator and Viewer",
 	"description": "Validate your AsyncAPI schema",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "waleedashraf",
 	"repository": {
 		"type": "github",
@@ -31,14 +31,18 @@
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
-		"@types/mocha": "^5.2.6",
 		"@types/node": "^10.12.21",
 		"@types/vscode": "^1.36.0",
 		"eslint": "^5.13.0",
 		"glob": "^7.1.4",
 		"mocha": "^6.1.4",
 		"typescript": "^3.3.1",
-		"vscode-test": "^1.0.0-next.0"
+		"vscode-test": "^1.0.0-next.0",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-plugin-import": "^2.18.0",
+		"eslint-plugin-node": "^9.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.0"
 	},
 	"dependencies": {
 		"asyncapi-validator": "^2.1.0"
